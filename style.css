@@ -1,0 +1,21 @@
+.navbar img,h1
+{
+	float:left;
+}
+.navbar li
+{
+	color:white;
+	background-color:black;
+	font-size:40;
+	float:right;
+	margin-top:35;
+	margin-left:10;
+	margin-right:5;
+	border-radius:10px;
+	padding:5;
+}
+.navbar a:hover
+{
+	background-color:white;
+	color:black;
+}
