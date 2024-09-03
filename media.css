@@ -2,9 +2,10 @@
 {
 	body
 	{
-		zoom:1.5;
+		zoom:150%;
 	}
-}
-.header{
-	background-color: black;
+	.header
+	{
+		background-color: black;
+	}
 }
