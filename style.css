@@ -1,12 +1,12 @@
-.navbar img,h1
+.header img,h1
 {
 	float:left;
 }
-.navbar li
+.header li
 {
 	color:white;
-	background-color:black;
-	font-size:40;
+	background-color:royalblue;
+	font-size:35;
 	float:right;
 	margin-top:35;
 	margin-left:10;
@@ -14,8 +14,8 @@
 	border-radius:10px;
 	padding:5;
 }
-.navbar a:hover
+.header a:hover
 {
-	background-color:white;
-	color:black;
+	font-size:37;
+	margin-top:34;
 }
