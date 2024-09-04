@@ -9,17 +9,14 @@
 		background-color: black;
 	}
 }
-@media only screen and (min-width:2000px)
+@media only screen and (min-width:2500px)
 {
-	@media only screen and (max-width:5000px)
+	body
 	{
-		body
-		{
-			zoom:150%;
-		}
-		.header h1
-		{
-			background-color: black;
-		}
+		zoom:150%;
+	}
+	.header h1
+	{
+		background-color: black;
 	}
 }
