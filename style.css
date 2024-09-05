@@ -41,23 +41,17 @@
 
 .search button
 {
-    padding: 6px 10px;
-    background: black;
-    color: green;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
+    background-image: url(search.png); 
+    background-size:50px 50px; 
+    background-repeat:no-repeat;
+    width: 60px; 
+    height: 60px; 
     position:relative;
-    top:15;
-    height:30;
+    top:36;
+    border:none;
 }
-
-.search button b{
-    font-size: 18px;
-}
-
 .search button:hover
 {
-    background: darkgreen;
-    color: white;
+    background-size:60px 60px;
+    top:26;
 }
