@@ -58,10 +58,8 @@
 {
 	display:flex;
 }
-.flexboxv
+.aboutv
 {
 	display:flex;
 	flex-flow:column;
-	justify-items:center;
-	align-items: center;
 }
