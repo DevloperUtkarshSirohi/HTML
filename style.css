@@ -42,16 +42,26 @@
 .search button
 {
     background-image: url(search.png); 
-    background-size:50px 50px; 
+    background-size:60px 60px; 
     background-repeat:no-repeat;
     width: 60px; 
     height: 60px; 
     position:relative;
-    top:36;
-    border:none;
+    top:32;
 }
 .search button:hover
 {
     background-size:60px 60px;
-    top:26;
+    top:28;
+}
+.about
+{
+	display:flex;
+}
+.flexboxv
+{
+	display:flex;
+	flex-flow:column;
+	justify-items:center;
+	align-items: center;
 }

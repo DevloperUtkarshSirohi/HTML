@@ -1,14 +1,3 @@
-@media only screen and (max-width:1000px)
-{
-	body
-	{
-		zoom:200%;
-	}
-	.header h1
-	{
-		background-color: black;
-	}
-}
 @media only screen and (min-width:1900px)
 {
 	body
