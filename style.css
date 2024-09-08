@@ -57,9 +57,15 @@
 .about
 {
 	display:flex;
+	flex-flow:row;
 }
 .aboutv
 {
 	display:flex;
 	flex-flow:column;
+}
+.contact img
+{
+	margin-left:20;
+	margin-top:20;
 }
