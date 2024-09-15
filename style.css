@@ -1,3 +1,7 @@
+@font-face {
+  font-family:AgencyFB;
+  src: url(AGENCYB.woff);
+}
 .header img,h1
 {
 	float:left;
@@ -5,14 +9,12 @@
 .header li
 {
 	color:white;
-	background-color:royalblue;
+	text-decoration:underline;
 	font-size:35;
 	float:right;
-	margin-top:35;
+	margin-top:40;
 	margin-left:10;
 	margin-right:5;
-	border-radius:10px;
-	padding:5;
 	cursor:pointer;
 }
 .header a:hover
@@ -24,30 +26,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:60;
+    height:20;
 }
 
 .search input[type="text"] {
     padding: 6px;
     margin-right: 10px;
     border: none;
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 4px;
     border:2px solid black;
-    position:relative;
-    top:10;
-    height:50;
+    position:absolute;
+    top:45;
+    right:40;
+    height:30;
 }
 
 .search button
 {
     background-image: url(search.png); 
-    background-size:60px 60px; 
+    background-size:40px 40px; 
     background-repeat:no-repeat;
-    width: 60px; 
-    height: 60px; 
-    position:relative;
-    top:32;
+    width: 40px; 
+    height: 40px; 
+    position:absolute;
+    top:40;
+    right:5;
 }
 .search button:hover
 {
